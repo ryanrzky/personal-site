@@ -1,0 +1,49 @@
+baseURL = "/"
+title = "Ryan Rizky Diantoro"
+author = "Ryan Rizky Diantoro"
+copyright = "Ryan Rizky Diantoro"
+paginate = 5
+languageCode = "en"
+theme = "tailwind"
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  subtitle = "Personal Website"
+
+  [params.header]
+    logo = "ryan-logo.jpg"
+    sticky = false
+
+  [params.footer]
+    since = 2023
+    poweredby = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Post"
+    pageRef = "/posts"
+    weight = 0
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'

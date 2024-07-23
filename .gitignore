@@ -1,0 +1,32 @@
+# Hugo Files
+public/
+resources/
+hugo_stats.json
+
+# Hugo Cache
+/cache/
+hugo_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you use Node.js for assets)
+node_modules/
+
+# Temporary files
+*.tmp
+*.log
+
+# Backup files
+*.bak
+*.swp
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional: ignore config.toml if you have environment-specific configurations
+# config.toml
